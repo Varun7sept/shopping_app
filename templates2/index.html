@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h2>Popular Products</h2>
+<div class="product-grid">
+    {% for product in products %}
+        <div class="product-card">
+            <a href="{{ url_for('product_detail', product_id=product.id) }}">
+                <img src="{{ product.image }}" alt="{{ product.name }}">
+                <h3>{{ product.name }}</h3>
+                <p class="price">{{ product.price }}</p>
+            </a>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
