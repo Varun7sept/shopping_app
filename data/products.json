@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 15",
+        "price": "₹79,999",
+        "image": "https://via.placeholder.com/200x200.png?text=iPhone+15",
+        "description": "Latest Apple iPhone 15 with A16 Bionic chip and improved camera system."
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy S24",
+        "price": "₹74,999",
+        "image": "https://via.placeholder.com/200x200.png?text=Galaxy+S24",
+        "description": "Flagship Samsung smartphone with Dynamic AMOLED display and Snapdragon 8 Gen 2."
+    },
+    {
+        "id": 3,
+        "name": "OnePlus 12",
+        "price": "₹59,999",
+        "image": "https://via.placeholder.com/200x200.png?text=OnePlus+12",
+        "description": "Premium performance with Hasselblad camera and 100W fast charging."
+    }
+]
